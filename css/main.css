@@ -1,0 +1,12 @@
+.intro{
+	font-size: 40px;
+	color:blue;
+	text-decoration: underline;
+	border:2px solid red;
+}
+
+.delay
+{
+	font-size:20px;
+	color:red;
+}

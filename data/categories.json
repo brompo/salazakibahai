@@ -1,0 +1,29 @@
+{"prayers":[{
+	"catname":"Sala za Faradhi",
+	"catdetail":[{"prayerheading":"Sala za faradhi","count":3,"link":"prayersummary.html","id":"salazafaradhi"}]
+},
+{
+	"catname":"Sala za Kawaida",
+	"catdetail":[{"prayerheading":"Msaada na auni","count":8,"link":"prayersummary.html","id":"msaadanaauni"},
+				 {"prayerheading":"Msaada katika majaribu","count":9,"link":"prayersummary.html","id":"msaadakatikamajaribu"},
+				 {"prayerheading":"Watoto na vijana","count":10,"link":"prayersummary.html","id":"watotonavijana"},
+				 {"prayerheading":"Kwa Ajili ya Marehemu","count":5,"link":"prayersummary.html","id":"kwaajiliyamarehemu"},
+				 {"prayerheading":"Kujitenga","count":11,"link":"prayersummary.html","id":"kujitenga"},
+				 {"prayerheading":"Jioni na usiku wa manane","count":3,"link":"prayersummary.html","id":"jioninausikuwamanane"},
+				 {"prayerheading":"Familia","count":5,"link":"prayersummary.html","id":"familia"},
+				 {"prayerheading":"Uthabiti katika ahadi","count":5,"link":"prayersummary.html","id":"uthabitikatikaahadi"},
+				 {"prayerheading":"Msamaha","count":10,"link":"prayersummary.html","id":"msamaha"},
+				 {"prayerheading":"Akiba","count":1,"link":"prayersummary.html","id":"akiba"}
+				]
+},
+{
+	"catname":"Sala kwa Nyakati Maalum",
+	"catdetail":[{"prayerheading":"Nyaraka Maalum","count":4,"link":"prayersummary.html","id":"nyarakamaalum"},
+				 {"prayerheading":"Nyaraka za kuzuru","count":3,"link":"prayersummary.html","id":"nyarakazakuzuru"},
+				 {"prayerheading":"Siku za kati","count":2,"link":"prayersummary.html","id":"sikuzakati"},
+				 {"prayerheading":"Mfungo","count":7,"link":"prayersummary.html","id":"mfungo"},
+				 {"prayerheading":"Nawruz","count":5,"link":"prayersummary.html","id":"nawruz"},
+				 {"prayerheading":"Wafia dini na jamaa zao","count":6,"link":"prayersummary.html","id":"wafiadininajamaazao"}
+				]
+}
+]}
