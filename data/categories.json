@@ -5,6 +5,7 @@
 {
 	"catname":"Sala za Kawaida",
 	"catdetail":[{"prayerheading":"Akiba","count":1,"link":"prayersummary.html","id":"akiba"},
+				 {"prayerheading":"Asubuhi","count":4,"link":"prayersummary.html","id":"asubuhi"},
 				 {"prayerheading":"Familia","count":5,"link":"prayersummary.html","id":"familia"},
 				 {"prayerheading":"Jioni na usiku wa manane","count":3,"link":"prayersummary.html","id":"jioninausikuwamanane"},
 				 {"prayerheading":"Kwa Ajili ya Marehemu","count":5,"link":"prayersummary.html","id":"kwaajiliyamarehemu"},
