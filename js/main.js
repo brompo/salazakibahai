@@ -54,8 +54,8 @@ $(document).ready(function() {
 		$.getJSON(prayerlocation, function(data) {
 				var categorydata = "";
 					$.each(data.details, function(index, val) {
-						 categorydata += "<li><a href='prayerdetails.html' id="+val.prayerID+" class='prayerdetailcontainer'><h2>"+val.prayername+"</h2><p>"+val.intro+"</p><p><b><span>"+val.author+"</span> * "+val.wordcount+" words</b></p>"+
-						 "<a href='#' class='ui-btn ui-nodisc-icon ui-icon-heart ui-btn-icon-right ui-btn-inline'>Love</a></a></li> ";
+						 categorydata += "<li><a href='prayerdetails.html' id="+val.prayerID+" class='prayerdetailcontainer'><h2>"+val.prayername+"</h2><p>"+val.intro+"</p><p><b><span>"+val.author+"</span> * "+val.wordcount+" words</b></p>";
+						 //"<a href='#' class='ui-btn ui-nodisc-icon ui-icon-heart ui-btn-icon-right ui-btn-inline'>Love</a></a></li> ";
 					});
 
 					$(".prayercatcontainer").html(categorydata).listview('refresh');
