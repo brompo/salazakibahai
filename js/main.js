@@ -3,6 +3,8 @@ $(document).ready(function() {
 	if(navigator.userAgent.match(/Android/i)){
     window.scrollTo(0,1);
 	}
+	//[TODO] figure out a way to not call this all the time
+	loadcategories('data/categories.json');
 
 	$(document).on('click', '.prayercategorylink', function() {
 		var link = $(this).attr('id');
@@ -16,7 +18,7 @@ $(document).ready(function() {
 		loadprayersummary(loc);
 	});
 
-	$(document).on('pageshow','.categorypage', function() {
+	$(document).on('load','.categorypage', function() {
 		loadcategories('data/categories.json');
 	});
 
