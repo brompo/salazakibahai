@@ -20,7 +20,9 @@
 				 {"prayerheading":"Ufundishaji","count":17,"link":"prayersummary.html","id":"ufundishaji"},
 				 {"prayerheading":"Uimara katika Ahadi","count":5,"link":"prayersummary.html","id":"uimarakatikaahadi"},
 				 {"prayerheading":"Ulinzi","count":9,"link":"prayersummary.html","id":"ulinzi"},
+				 {"prayerheading":"Umoja","count":2,"link":"prayersummary.html","id":"umoja"},
 				 {"prayerheading":"Uponyaji","count":6,"link":"prayersummary.html","id":"uponyaji"},
+				 {"prayerheading":"Ushindi wa hoja","count":7,"link":"prayersummary.html","id":"ushindiwahoja"},
 				 {"prayerheading":"Uthabiti","count":8,"link":"prayersummary.html","id":"uthabiti"},
 				 {"prayerheading":"Wanadamu","count":4,"link":"prayersummary.html","id":"wanadamu"},
 				 {"prayerheading":"Watoto na vijana","count":10,"link":"prayersummary.html","id":"watotonavijana"}
@@ -28,8 +30,8 @@
 },
 {
 	"catname":"Sala kwa Nyakati Maalum",
-	"catdetail":[{"prayerheading":"Mfungo","count":7,"link":"prayersummary.html","id":"mfungo"},
-				 {"prayerheading":"Nawruz","count":5,"link":"prayersummary.html","id":"nawruz"},
+	"catdetail":[{"prayerheading":"Mfungo","count":4,"link":"prayersummary.html","id":"mfungo"},
+				 {"prayerheading":"Nawruz","count":1,"link":"prayersummary.html","id":"nawruz"},
 				 {"prayerheading":"Nyaraka Maalum","count":4,"link":"prayersummary.html","id":"nyarakamaalum"},
 				 {"prayerheading":"Nyaraka za kuzuru","count":3,"link":"prayersummary.html","id":"nyarakazakuzuru"},
 				 {"prayerheading":"Siku za kati","count":2,"link":"prayersummary.html","id":"sikuzakati"},
