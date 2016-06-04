@@ -8,8 +8,9 @@ $(document).ready(function() {
 
 	$(document).on('click', '.prayercategorylink', function() {
 		var link = $(this).attr('id');
+		var heading = $(this).children('input').val();
 		//TODO - Figure out a way to et the heading not the link
-		sessionStorage["prayerheading"] = link;
+		sessionStorage["prayerheading"] = heading;
 		sessionStorage["location"] = "data/"+link+".json";
 	});
 	
@@ -42,7 +43,7 @@ $(document).ready(function() {
 			$.each(json.prayers, function(index, val) {
 				prayerdata += "<li data-role='list-divider'>"+val.catname+"</li>";	
 				$.each(val.catdetail, function(index, val) {
-					prayerdata += "<li id='"+val.id+"' class='prayercategorylink'><a href='"+val.link+"'>"+val.prayerheading+"<span class='ui-li-count'>"+val.count+"</span></a></li>";
+					prayerdata += "<li id='"+val.id+"' class='prayercategorylink'><a href='"+val.link+"'>"+val.prayerheading+"<span class='ui-li-count'>"+val.count+"</span></a><input type='text' style='display:none' value='"+val.prayerheading+"'/></li>";
 				});
 			});
 
