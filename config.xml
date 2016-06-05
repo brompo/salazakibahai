@@ -1,6 +1,30 @@
-<icon src="images/logo.png" platform="android" qualifier="ldpi" />
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Sala za kibahai</name>
+
+    <description>
+        A swahili prayer book app
+    </description>
+
+    <author href="https://studio19.co.tz" email="brian@studio19.co.tz">
+        Brian Paul
+    </author>
+
+
+    <icon src="images/logo.png" platform="android" qualifier="ldpi" />
 	<icon src="images/logo.png" platform="android" qualifier="mdpi" />
 	<icon src="images/logo.png" platform="android" qualifier="hdpi" />
 	<icon src="images/logo.png" platform="android" qualifier="xhdpi" />
 	<icon src="images/logo.png" platform="android" qualifier="xxhdpi" />
 	<icon src="images/logo.png" platform="android" qualifier="fr-xxhdpi" />
+
+
+</widget>
+
