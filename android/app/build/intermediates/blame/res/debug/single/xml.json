@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/var/www/html/salazakibahai/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/var/www/html/salazakibahai/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.37.0/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/var/www/html/AwesomeProject/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/var/www/html/AwesomeProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.37.0/res/xml/preferences.xml"
+    }
+]

@@ -1,0 +1,4 @@
+#Sat Dec 10 12:57:24 EAT 2016
+base.0=/var/www/html/salazakibahai/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/var/www/html/salazakibahai/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

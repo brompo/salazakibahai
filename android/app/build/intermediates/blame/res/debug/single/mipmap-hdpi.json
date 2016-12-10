@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/var/www/html/AwesomeProject/android/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/var/www/html/AwesomeProject/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/var/www/html/salazakibahai/android/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/var/www/html/salazakibahai/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]
