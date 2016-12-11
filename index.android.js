@@ -1,58 +1,20 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
+import React,{Component} from 'react';
+import {Text, View, StyleSheet, ListView, AppRegistry} from 'react-native';
 
-import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
-
-export default class AwesomeProject extends Component {
+export default class ListViewDemo extends Component{
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Sala na Maandiko Matakatifu
-        </Text>
-        <Text style={styles.instructions}>
-          Changes will be seen here
-        </Text>
-        <Text>
-        This is a test if the emulator works
-        </Text>
-        <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
-        </Text>
+      <View>
+      <Text style={styles.header}>There we go</Text>
       </View>
-    );
+      );
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'blue',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-    flex:1,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-    flex:2,
-  },
+  header:{
+    fontsize:20,
+  }
 });
 
-AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);
+AppRegistry.registerComponent('ListViewDemo', () => ListViewDemo);
