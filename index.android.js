@@ -13,8 +13,8 @@ export default class ListViewDemo extends Component{
 
 const styles = StyleSheet.create({
   header:{
-    fontsize:20,
+    fontSize:20,
   }
 });
 
-AppRegistry.registerComponent('ListViewDemo', () => ListViewDemo);
+AppRegistry.registerComponent('AwesomeProject', () => ListViewDemo);

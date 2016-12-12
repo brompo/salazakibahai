@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/brompo/.nvm/versions/node/v5.0.0/bin/node',
+1 verbose cli   '/home/brompo/.nvm/versions/node/v5.0.0/bin/npm',
+1 verbose cli   'start',
+1 verbose cli   '--',
+1 verbose cli   '--reset-cache' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle AwesomeProject@0.0.1~prestart: AwesomeProject@0.0.1
+6 silly lifecycle AwesomeProject@0.0.1~prestart: no script for prestart, continuing
+7 info lifecycle AwesomeProject@0.0.1~start: AwesomeProject@0.0.1
+8 verbose lifecycle AwesomeProject@0.0.1~start: unsafe-perm in lifecycle true
+9 verbose lifecycle AwesomeProject@0.0.1~start: PATH: /home/brompo/.nvm/versions/node/v5.0.0/lib/node_modules/npm/bin/node-gyp-bin:/var/www/html/salazakibahai/node_modules/.bin:/home/brompo/.nvm/versions/node/v5.0.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/brompo/Android/Sdk/tools
+10 verbose lifecycle AwesomeProject@0.0.1~start: CWD: /var/www/html/salazakibahai
+11 silly lifecycle AwesomeProject@0.0.1~start: Args: [ '-c',
+11 silly lifecycle   'node node_modules/react-native/local-cli/cli.js start "--reset-cache"' ]
+12 silly lifecycle AwesomeProject@0.0.1~start: Returned: code: 11  signal: null
+13 info lifecycle AwesomeProject@0.0.1~start: Failed to exec start script
+14 verbose stack Error: AwesomeProject@0.0.1 start: `node node_modules/react-native/local-cli/cli.js start "--reset-cache"`
+14 verbose stack Exit status 11
+14 verbose stack     at EventEmitter.<anonymous> (/home/brompo/.nvm/versions/node/v5.0.0/lib/node_modules/npm/lib/utils/lifecycle.js:233:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (/home/brompo/.nvm/versions/node/v5.0.0/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:818:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid AwesomeProject@0.0.1
+16 verbose cwd /var/www/html/salazakibahai
+17 error Linux 3.13.0-61-generic
+18 error argv "/home/brompo/.nvm/versions/node/v5.0.0/bin/node" "/home/brompo/.nvm/versions/node/v5.0.0/bin/npm" "start" "--" "--reset-cache"
+19 error node v5.0.0
+20 error npm  v3.3.6
+21 error code ELIFECYCLE
+22 error AwesomeProject@0.0.1 start: `node node_modules/react-native/local-cli/cli.js start "--reset-cache"`
+22 error Exit status 11
+23 error Failed at the AwesomeProject@0.0.1 start script 'node node_modules/react-native/local-cli/cli.js start "--reset-cache"'.
+23 error This is most likely a problem with the AwesomeProject package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node node_modules/react-native/local-cli/cli.js start "--reset-cache"
+23 error You can get their info via:
+23 error     npm owner ls AwesomeProject
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
